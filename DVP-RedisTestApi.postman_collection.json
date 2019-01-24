@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "d82017b0-a7f4-4a4b-8a93-46dfd3a3747c",
+		"name": "DVP-RedisTestApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:3635/RedisTest/Item/TestMe",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3635/RedisTest/Item/TestMe",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3635",
+					"path": [
+						"RedisTest",
+						"Item",
+						"TestMe"
+					]
+				},
+				"description": "Get Item data"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3635/RedisTest/Item/TestMe/Value/val1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3635/RedisTest/Item/TestMe/Value/val1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3635",
+					"path": [
+						"RedisTest",
+						"Item",
+						"TestMe",
+						"Value",
+						"val1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
