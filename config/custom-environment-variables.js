@@ -23,7 +23,7 @@ module.exports = {
     {
         "vdomain": "LB_FRONTEND",
         "domain": "HOST_NAME",
-        "port": "HOST_LITETICKET_PORT",
+        "port": "HOST_SAMPLE_PORT",
         "version": "HOST_VERSION",
         "HashKey":"HOST_HASHKEY",
         "UseDashboardMsgQueue": 'HOST_USE_DASHBOARD_MSG_QUEUE'
