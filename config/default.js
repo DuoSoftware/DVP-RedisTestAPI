@@ -3,15 +3,15 @@ module.exports = {
 
     "Redis":
         {
-            "mode":"sentinel",//instance, cluster, sentinel
-            "ip": "45.55.142.207",
-            "port": 6389,
+            "mode":"",//instance, cluster, sentinel
+            "ip": "",
+            "port": ,
             "user": "duo",
-            "password": "DuoS123",
+            "password": "",
             "sentinels":{
-                "hosts": "138.197.90.92,45.55.205.92,138.197.90.92",
-                "port":16389,
-                "name":"redis-cluster"
+                "hosts": "",
+                "port":,
+                "name":""
             }
 
         },
@@ -19,7 +19,7 @@ module.exports = {
 
     "Host":
         {
-            "resource": "cluster",
+            "resource": "",
             "vdomain": "127.0.0.1",
             "domain": "127.0.0.1",
             "port": "3635",
