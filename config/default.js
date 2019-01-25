@@ -5,12 +5,12 @@ module.exports = {
         {
             "mode":"",//instance, cluster, sentinel
             "ip": "",
-            "port": ,
+            "port":"" ,
             "user": "duo",
             "password": "",
             "sentinels":{
                 "hosts": "",
-                "port":,
+                "port":"",
                 "name":""
             }
 
